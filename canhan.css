@@ -1,0 +1,236 @@
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 2,5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+html{
+    font-family: Times New Roman, Times, serif, Arial, Helvetica;
+    font-size: medium;
+    box-sizing: border-box;
+}
+body{
+    background-color: #B0C4DE; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+
+    flex-direction: column;
+}
+/* nav{
+    display: flex;
+    flex-direction: column;
+    background-color: #FBFBFF;
+    justify-content: center;
+    align-items: center;
+    min-height 40px;
+    border-radius: 10px;
+    margin-top: 50px;
+    max-width: 960px;
+    min-width: 360px;
+    padding: 0 360px;
+} */
+.logo{
+    width: 200px;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    max-width: 960px;
+    min-width: 360px;
+    align-items: center;
+}
+
+.noidung{
+    display: flex;
+    flex-direction: column;
+    background-color: #FBFBFF;
+    border-radius: 10px;
+    padding: 60px 60px;
+    margin-top: 30px;
+    max-width: 960px;
+    min-width: 360px;
+}
+.anh-noidung{
+    width: 400px;
+    margin-bottom: 25px;
+    margin: center;
+    align-content: center;
+    border-radius: 10px;
+}
+.tieude-noidung{
+    text-align: center;
+    font-size: 45px;
+    color: #780218;
+}
+.tacgia{
+    text-align: right;
+    margin-right: 220px;
+    font-weight: bold;
+    font-size: 20px;
+    font-style:italic;
+    justify-items: right;
+    margin-top: 0;
+}
+
+.tieudenho-noidung{
+    text-align: left;
+}
+.text-noidung{
+    text-indent: 2.5em;
+    line-height: 25px;
+}
+.text-noibat{
+    background-color: #598381;
+    padding: 1px 5px ;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fbfbff;
+}
+
+.callout{
+    display: block;
+    background-color: #598381;
+    padding: 5px 10px ;
+    border-radius: 10px;
+    font-weight: bold;
+    color: yellow;
+    transition: 1.4s;
+}
+
+.callout:hover, .callout:focus{
+    display: block;
+    background-color: #8B0000;
+    height: fit-content;
+    /* padding: 10px 10px; */
+    
+}
+
+.tachnoidung{
+    border-radius: 5px;
+    border: 1px solid #153b50;
+    width: 150px;
+    margin: 30px auto;
+    align-content: center;
+}
+
+ /* .danhgia{
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    margin: 25px auto;
+    border-top: 2px solid rebeccapurple ;
+    
+}
+
+.comment{
+    border: 1px solid red;
+    border-radius: 10px;
+    color: rgb(36, 31, 184);
+    display: inline-block ;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 25px;
+    text-decoration: none;
+    transition: 1s;
+}
+.chiase{
+    border: 1px solid red;
+    border-radius: 10px;
+    color: rgb(36, 31, 184);
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 25px;
+    text-decoration: none;
+    transition: 1s;
+}
+.thich{
+    border: 1px solid red;
+    border-radius: 10px;
+    color: rgb(36, 31, 184);
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    margin: 25px;
+    text-decoration: none;
+    transition: 1s;
+}
+.comment:hover, .comment:focus{
+    background-color: red;
+}
+.thich:hover, .thich:focus{
+    background-color: red;
+}
+.chiase:hover, .chiase:focus{
+    background-color: red;
+} */
+
+.ketbai{
+    border-radius: 5px;
+    border: 1px solid #153b50;
+    width: 300px;
+    margin-top: 30px;
+    align-content: center;
+}
+
+
+.socials-share {
+    text-align: center;
+}
+
+.socials-share a {
+    padding: 5px 10px;
+    color: #fff;
+    line-height: 2em;
+    text-decoration: none;
+    border-radius: 10px;
+    white-space: nowrap;
+    display: inline-block;
+    margin: 0 25px;
+    margin-top: 25px;
+    align-content: center;
+}
+
+.socials-share span.fa {
+    margin-right: 3px;
+}
+
+.bg-facebook {
+    background: #3a5899;
+}
+
+.bg-facebook:hover, .bg-facebook:focus {
+    background: #1d418d;
+}
+
+.bg-twitter {
+    background: #2a99ed;
+}
+
+.bg-twitter:hover, .bg-twitter:focus {
+    background: #268ad5;
+}
+
+
